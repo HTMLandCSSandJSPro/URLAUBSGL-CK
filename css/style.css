@@ -1,0 +1,201 @@
+body{
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background: transparent;
+    border: none;
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+/* HERO */
+
+.hero{
+    background-image: url('../img/hero-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 36px 0 233px 0;
+}
+
+.logo__join__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.join__list{
+    display: flex;
+    gap: 0px;
+}
+
+.log__in__button{
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    color: white;
+    padding: 11px 18px;
+}
+
+.sign__up__button {
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.hero__title{
+    font-size: 52px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 125px;
+    color: white;
+    width: 500px;
+    margin: 125px auto 0 auto;
+}
+
+.hero__description{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    margin-top: 36px;
+}
+
+.hero__button{
+    background-color: #FF4E50;
+    color: white;
+    border-radius: 22px;
+    padding: 13px 10px;
+    font-size: 14px;
+    line-height: 1.2px;
+    letter-spacing: 0px;
+    margin-top: 33px;
+    margin: 33px auto 0 auto;
+    display: block;
+}
+
+/* MEETING */
+.meeting__title{
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #333333;
+    padding-top: 69px;
+}
+
+.partners__list{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    column-gap: 37px;
+}
+
+.partner__list__item{
+    flex-basis: calc((100% - 148px)/4);
+}
+
+.partner__img__wrap{
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.partner__img__wrap::after{
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.partner__img__wrap__1::after{
+    background-color: #FF4E50;
+    background-image: url('../img/tv.png');
+}
+.partner__img__wrap__2::after {
+    background-color: #1CD7AD;
+    background-image: url('../img/cup.png');
+}
+.partner__img__wrap__3::after {
+    background-color: #FFA507;
+    background-image: url('../img/bottle.png');
+}
+.partner__img__wrap__4::after {
+    background-color: #4E73DB;
+    background-image: url('../img/plane.png');
+}
+
+.partner__name{
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-top: 16px;
+}
+
+.partner__description{
+    margin-top: 4px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #666666;
+}
+
+.more__partners{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2px;
+    letter-spacing: 0px;
+    color: #FF4E50;
+    padding: 13px 27px;
+    border-radius: 22px;
+    background-color: transparent;
+    border: 2px solid #FF4E50;
+    display: block;
+    margin: 30px auto 0 auto;
+}
